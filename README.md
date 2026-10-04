@@ -42,8 +42,10 @@ yt-dlp --skip-download --write-subs --sub-langs ko "https://youtu.be/VIDEO_ID"
 ```
 이 경우 `*.ko.vtt` 파일로 다운로드되며, VLC, PotPlayer 등 대부분의 플레이어에서 바로 사용할 수 있습니다.
 
+* 영문 자막을 다운로드 받을때
+
 ```
-& "C:\Users\Administrator\yt-dlp.exe" --skip-download --write-auto-subs --sub-langs en "https://youtu.be/M5KOgtk9VfI"
+yt-dlp --skip-download --write-auto-subs --sub-langs en "https://youtu.be/M5KOgtk9VfI"
 ```
 
 ## 주의사항
